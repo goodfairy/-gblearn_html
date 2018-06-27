@@ -14,6 +14,53 @@ body {
     
 }
 
+.h1 {
+    
+}
+
+.h2 {
+    
+}
+
+.h3 {
+    
+}
+
+.product {
+   color : #000000 ;
+   font-size : 18px;
+   font-weight : 400;
+   background-color: #eaeaea;
+}
+
+.h2 {
+   color : #000000 ;
+   font-size : 18px;
+   font-weight : 400;
+   background-color: #eaeaea;
+}
+
+.sm-desription {
+    color : #707070 ;
+    font-size : 14px;
+    font-style : italic ;
+    line-height: 16px;
+}
+
+.fl-desription {
+    color : #484343 ;
+    font-size : 16px;
+    font-weight : 400;
+    line-height: 24px;
+    text-align:left;
+}
+
+.ttx {
+    color :  ;
+    font-size : 15px;
+    line-height: 20px;
+    text-align: center;
+}
 
 /*3.Меню сайта:
 а.Для всех ссылок меню задать определённый стиль. (Цвет текста, размер шрифта, начертание шрифта и т.д.)

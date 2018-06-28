@@ -6,6 +6,7 @@
     <meta name="keywords" content="GopShop  ГопШоп Отжатый шмот дешево">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title>Контакты :: GopShop</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
     <!-- шапка начало -->
@@ -68,8 +69,9 @@
     </table>
   </div>
   <!-- крошки конец -->
-  <div align=center>
-    <form enctype="multipart/form-data" target="_self" method="post" id="webform-contact" accept-charset="UTF-8">
+
+  <div class="contacts" align=center>
+    <form class="contacts" enctype="multipart/form-data" target="_self" method="post" id="webform-contact" accept-charset="UTF-8">
     <table width="85%" border="0" cellpadding="0" cellspacing="0">
        <tr>
         <td valign=center align=left colspan=2>
@@ -83,24 +85,24 @@
       </tr> 
       <tr height="25px">
         <td valign=center align=left width="15%"><label for="edit_submitted_client_name">Ваше имя&nbsp;<span>*</span></label></td>  
-        <td valign=center align=left><input required="required" placeholder="Ваше имя *" type="text" id="edit_submitted_client_name" name="submitted_client_name" value="" size="60" maxlength="128"></td>
+        <td valign=center align=left><input required="required" placeholder="Ваше имя *" type="text" id="edit_submitted_client_name" name="submitted_client_name" value="" maxlength="128"></td>
       </tr>
       <tr height="25px">
         <td valign=center align=left width="15%"><label for="editsubmitted_client_e_mail">Ваш E&nbsp;-&nbsp;mail </label></td>
-        <td valign=center align=left><input type="email" id="edit_submitted_client_e_mail" name="submitted_client_e_mail" size="60" placeholder="Ваш e-mail"></div></td>
+        <td valign=center align=left><input type="email" id="edit_submitted_client_e_mail" name="submitted_client_e_mail" size="60" placeholder="Ваш e-mail"></td>
       </tr>
       <tr height="25px">
         <td valign=center align=left width="15%"><label for="edit_submitted_client_phone">Ваш телефон </label></td>
-        <td valign=center align=left><input type="text" id="edit_submitted_client_phone" name="submitted_client_phone" value="" size="60" maxlength="128" placeholder="8(XXX) XXX XX XX"></div></td>
+        <td valign=center align=left><input type="text" id="edit_submitted_client_phone" name="submitted_client_phone" value="" size="60" maxlength="128" placeholder="8(XXX) XXX XX XX"></td>
       </tr>
       <tr height="100px">
         <td valign=center align=left width="15%"><label for="edit_submitted_client_message">Ваше сообщение&nbsp;<span title="Это поле обязательно для заполнения.">*</span></label></td>
-        <td valign=center align=left><textarea required="required" placeholder="Ваше сообщение *" id="edit_submitted_client_message" name="submitted_client_message" cols="40" rows="7"></textarea></div></td>
+        <td valign=center align=left><textarea required="required" placeholder="Ваше сообщение *" id="edit_submitted_client_message" name="submitted_client_message" cols="40" rows="7"></textarea></td>
       </tr>
       <tr height="25px">
         <td valign=center align=center></td>
         <td valign=center align=left>
-           <input type="submit" name="send" value="Отправить сообщение">
+           &nbsp;<input type="submit" name="send" value="Отправить сообщение">
         </td>
       </tr>
       <tr>
@@ -114,8 +116,9 @@
       <tr>
         <td valign=center align=left colspan=2>
           <h3>Схема проезда</h3>
-
+        <!--          
           <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A70b928784e910cf5e22f1bfb3ea4b39b0b7ee7575ad97e77908670178784c6b7&amp;source=constructor" width="600" height="500" frameborder="0"></iframe>
+        -->
         </td>
       </tr>
       <tr>

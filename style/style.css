@@ -116,12 +116,12 @@ ul {
 input {
     width : 300px ;
     height: 22px  ;
-    color : #001f87 ;
+    color : #053df7 ;
     font-size : 14px;   }
 textarea{
     width : 300px ;
     height: 110px  ;
-    color : #152351 ;
+    color : #053df7  ;
     font-size : 14px;
     resize: vertical;   }
 tr {    height: 32px  ; }
@@ -136,6 +136,7 @@ input.button {
 .theborder {
    outline: 2px solid #000000;
    outline-offset: 7px;
+   margin:20px;
 }
 .smallborder {
    outline: 1px dashed #484343;

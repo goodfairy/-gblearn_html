@@ -80,6 +80,20 @@ h3 {
     text-decoration : underline ;
     font-weight : bold;
     font-size : 18px;   }
+    
+.product    
+P:first-letter {
+    font-family: "Times New Roman", Times, serif; 
+    font-size: 200%; 
+    color: red; 
+}
+td {
+   padding: 10px ;
+}
+
+.logo {
+   float : left ;
+}
 /*b. Для текста краткого описания товар.*/
 /** Цвет текста #707070; Размер шрифта 14px., Начертание шрифта italic. (font-style), Высоту текста 16px (line-height);*/
 .sm-desription {
@@ -116,11 +130,13 @@ ul {
 input {
     width : 300px ;
     height: 22px  ;
+    text-transform: capitalize ;
     color : #053df7 ;
     font-size : 14px;   }
 textarea{
     width : 298px ;
     height: 110px  ;
+    text-transform: capitalize ;
     color : #053df7  ;
     font-size : 14px;
     resize: vertical;   }
@@ -133,14 +149,27 @@ input.button {
    font-weight : bold;
 }
 
+#edit_submitted_client_e_mail:focus {
+    color : #053df7 ;
+    background: #a8abaf;
+    border: 2px double black ;
+}
+
+
 /*6.*Для изображений, размещенных на странице подробного описания товара, задать рамку не используя свойства border, произвольным цветом. */
 .theborder {
    outline: 2px solid #000000;
    outline-offset: 7px;
    margin:20px;
 }
+.theborder:hover {
+   outline: 0px solid #000000;
+}
 .smallborder {
    outline: 1px dashed #484343;
    outline-offset: 3px;
    margin: 10px;
+}
+.smallborder:hover {
+   outline: 0px solid #000000;
 }

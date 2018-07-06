@@ -4,7 +4,14 @@ body {
 }
 
 .header {
-   height: 170px  ;
+   height: 120px  ;
+   align-self: center;
+   background-image: url('../img/headbg.png')
+}
+
+.logo {
+   float : left ;
+   margin: 6px
 }
 
 .footer {
@@ -12,6 +19,21 @@ body {
    background: #d6d6d6 ;
 }
 
+.shopmap  {
+   height: 374px  ;
+   width: 100%;
+}
+
+.oneitem {
+    float : left ;
+   height:400px  ;
+   width: 300px  ;
+}
+
+.rowitem {
+    height:500px  ;
+    width: 100%  ;
+}
 
 /*3.Меню сайта:*/
 /*а.Для всех ссылок меню задать определённый стиль. (Цвет текста, размер шрифта, начертание шрифта и т.д.), Убрать маркеры списка.*/
@@ -101,10 +123,7 @@ td {
    padding: 10px ;
 }
 
-.logo {
-   float : left ;
-   margin: 10px
-}
+
 /*b. Для текста краткого описания товар.*/
 /** Цвет текста #707070; Размер шрифта 14px., Начертание шрифта italic. (font-style), Высоту текста 16px (line-height);*/
 .sm-desription {

@@ -3,6 +3,16 @@ body {
     background-color: #f8f8f8;
 }
 
+.header {
+   height: 170px  ;
+}
+
+.footer {
+   height: 200px  ;
+   background: #d6d6d6 ;
+}
+
+
 /*3.Меню сайта:*/
 /*а.Для всех ссылок меню задать определённый стиль. (Цвет текста, размер шрифта, начертание шрифта и т.д.), Убрать маркеры списка.*/
 .dropdownmenu ul, .dropdownmenu li {
@@ -12,7 +22,7 @@ body {
 .dropdownmenu ul {
 	background: gray;
 	list-style: none;
-   width: 600px;
+   width: 100%;
 }
 .dropdownmenu li {
 	float: left;
@@ -48,11 +58,11 @@ li:hover ul#submenu {
 	opacity: 1;
 	top: 40px;	
 	visibility: visible;
-   width: 167px;
+   width: 100%;
 }
 #submenu li {
 	float: none;
-   width: 167px;
+   width: 100%;
 }
 #submenu a:hover {
 	background: #DF4B05;
@@ -93,6 +103,7 @@ td {
 
 .logo {
    float : left ;
+   margin: 10px
 }
 /*b. Для текста краткого описания товар.*/
 /** Цвет текста #707070; Размер шрифта 14px., Начертание шрифта italic. (font-style), Высоту текста 16px (line-height);*/
